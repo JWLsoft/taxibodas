@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="images/favicon.ico.ico.ico" type="image/x-icon" rel="shortcut icon"/>
+<title>JWL - Taxi para Bodas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>  
+<script type="text/javascript" src="js/Josefin_Sans_400.font.js"></script>
+<script type="text/javascript" src="js/Tangerine_700.font.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script> 
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.aToolTip, .box1, .box1 .inner, .button, .button strong {behavior:url(js/PIE.htc)}
+	</style>
+<![endif]-->
+<!--[if lt IE 7]>
+	<div style='clear:both;text-align:center;position:relative'>
+		<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt="" /></a>
+	</div>
+<![endif]-->
+</head>
+<body id="page4">
+<div class="body1">
+	<div class="main">
+<!-- header -->
+		<header>
+			<div class="wrapper">
+				<h1><a href="index.html" id="logo"></a></h1>
+				<nav>
+					<ul id="menu" class="nav">
+						<li class="first"><a href="index.html">Inicio</a></li>
+						<li><a href="Matrimonial.html">Servicios</a>
+							<ul class="sub-menu">
+								<li><a href="Matrimonial.html">Matrimonial</a></li>
+								<li><a href="Empresarial.html">Empresarial</a></li>
+								<li><a href="Turistico.html">Turístico</a></li>
+								<li><a href="Otros.html">Otros</a></li>
+							</ul>
+						</li>
+                        <li><a href="Album.html">Álbum</a></li>
+						<li id="menu_active"><a href="Conocenos.html">Conócenos </a></li>
+						<li><a href="Reservas1.html">Reservas</a></li>
+						<li><a href="Contacts.html">Contáctanos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+<!-- / header -->
+	</div>
+</div>
+<div class="body3">
+	<div class="main">
+        <br>
+        <br>
+        
+        <table class="tablaContenido2">
+            <tr class="tablaContenido2">
+                <td>
+                    <figure class="left marg_right1"><img src="images/testimonios.png" alt=""></figure>
+                </td>
+            </tr>
+        </table>
+        
+        <br><br>
+        
+	</div>
+</div>
+<div class="body2">
+	<div class="main">
+<!-- footer -->
+		<footer>
+            <br>
+			© 2015. Todos los derechos reservados por JWL.
+		</footer>
+<!-- / footer -->
+	</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+<script type="text/javascript">
+   $(window).load(function() {
+   $('.slider').nivoSlider({
+        effect:'fold', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft' 
+        slices:17,
+        animSpeed:500,
+        pauseTime:8000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:true, //Next & Prev
+        directionNavHide:false, //Only show on hover
+        controlNav:true, //1,2,3...
+        controlNavThumbs:false, //Use thumbnails for Control Nav
+        controlNavThumbsFromRel:false, //Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', //Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+        keyboardNav:true, //Use left & right arrows
+        pauseOnHover:true, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:1, //Universal caption opacity
+        beforeChange: function(){},
+        afterChange: function(){Cufon.refresh();},
+        slideshowEnd: function(){} //Triggers after all slides have been shown
+    });
+});
+</script>
+</body>
+</html>

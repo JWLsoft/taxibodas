@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="images/favicon.ico.ico.ico" type="image/x-icon" rel="shortcut icon"/>
+<title>JWL - Taxi para Bodas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>  
+<script type="text/javascript" src="js/Josefin_Sans_400.font.js"></script>
+<script type="text/javascript" src="js/Tangerine_700.font.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script> 
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.aToolTip, .box1, .box1 .inner, .button, .button strong {behavior:url(js/PIE.htc)}
+	</style>
+<![endif]-->
+<!--[if lt IE 7]>
+	<div style='clear:both;text-align:center;position:relative'>
+		<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt="" /></a>
+	</div>
+<![endif]-->
+</head>
+    
+<div class="vFlotante">
+	<hgroup style="display:inline-block;">
+		<!--<h2 class="titulo">Chat Online</h2>-->
+        <img class="titulo" src="images/chat.png" alt="" title="">
+	</hgroup>
+    <section class="chat" style="display:inline-block;">
+        <div class="Formulario">
+        <h2>Haz tu <span>Consulta</span></h2>
+        <form id="ChatEmergente">
+            <div>
+                <div  class="wrapper">
+                    <img src="images/chat2.png" alt="" title="">
+                    <input type="text" value="Mensaje" class="input" onclick="javascript: limpia(this);">
+                    <a href="" class="boton" onClick="document.getElementById('ContactForm').submit()"><strong>Enviar</strong></a>
+                    <a href="" class="boton" onClick="document.getElementById('ContactForm').reset()"><strong>Finalizar</strong></a>
+                </div>
+            </div>
+        </form>
+        </div>
+    </section>
+</div>		
+    
+<body id="page6">
+<div class="body1">
+	<div class="main">
+<!-- header -->
+		<header>
+			<div class="wrapper">
+				<h1><a href="index.html" id="logo"></a></h1>
+				<nav>
+					<ul id="menu">
+						<li class="first"><a href="index.html">Inicio </a></li>
+						<li><a href="Matrimonial.html">Servicios</a></li>
+                        <li><a href="Album.html">Álbum</a></li>
+						<li><a href="Conocenos.html">Conócenos</a></li>
+						<li><a href="Reservas1.html">Reservas</a></li>
+						<li id="menu_active"><a href="Contacts.html">Contáctenos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header><div class="ic">© 2015. Todos los derechos reservados por JWL.</div>
+<!-- / header -->
+	</div>
+</div>
+<div class="body3">
+	<div class="main">
+<!-- content -->
+		<br><br>
+        <table class="tablaContenido2">
+            <tr>
+                <td>
+                    <h2><span>Solicitar Información</span></h2>
+                </td>
+            </tr>
+        </table>
+        <form id="ContactForm">
+            <table class="tablaContenido2">
+                <tr>
+                    <td>
+                        <div  class="wrapper">
+                            <span>Nombres:</span>
+                            <input type="text" class="input">
+                        </div>
+                        <div  class="wrapper">
+                            <span>Apellidos:</span>
+                            <input type="text" class="input">
+                        </div>
+                        <div  class="wrapper">
+                            <span>Teléfono:</span>
+                            <input type="text" class="input">								
+                        </div>
+                        <div  class="wrapper">
+                            <span>E-mail:</span>
+                            <input type="text" class="input">
+                        </div>
+                        <div  class="textarea_box">
+                            <br><span>Mensaje:</span>
+                            <textarea name="textarea" cols="1" rows="1"></textarea>
+                        </div>
+                        <a href="" class="boton" onClick="document.getElementById('ContactForm').submit()"><strong>Enviar</strong></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br><br>
+        <table class="tablaContenido2">
+            <tr>
+                <td>
+                    <figure class="left marg_right1"><img src="images/division.png" alt=""></figure>
+                </td>
+            </tr>
+        </table>
+        
+        <br><br>
+        <table class="tablaContenido2">
+            <tr class="tablaContenido2">
+                <td>
+                    <figure class="left marg_right1"><img src="images/contactenos.png" alt=""></figure>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+<!-- content / -->
+	</div>
+</div>
+<div class="body2">
+	<div class="main">
+<!-- footer -->
+		<footer>
+            <br>
+			© 2015. Todos los derechos reservados por JWL.
+		</footer>
+<!-- / footer -->
+	</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+<script type="text/javascript">
+   $(window).load(function() {
+   $('.slider').nivoSlider({
+        effect:'fold', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft' 
+        slices:17,
+        animSpeed:500,
+        pauseTime:8000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:true, //Next & Prev
+        directionNavHide:false, //Only show on hover
+        controlNav:true, //1,2,3...
+        controlNavThumbs:false, //Use thumbnails for Control Nav
+        controlNavThumbsFromRel:false, //Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', //Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+        keyboardNav:true, //Use left & right arrows
+        pauseOnHover:true, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:1, //Universal caption opacity
+        beforeChange: function(){},
+        afterChange: function(){Cufon.refresh();},
+        slideshowEnd: function(){} //Triggers after all slides have been shown
+    });
+});
+</script>
+</body>
+</html>
